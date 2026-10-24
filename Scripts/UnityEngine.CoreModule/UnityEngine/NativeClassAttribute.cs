@@ -1,0 +1,14 @@
+using System;
+
+namespace UnityEngine;
+
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, Inherited = false)]
+public sealed class NativeClassAttribute : Attribute
+{
+	private string QualifiedNativeName { set; }
+
+	public NativeClassAttribute(string qualifiedCppName)
+	{
+		QualifiedNativeName = qualifiedCppName;
+	}
+}

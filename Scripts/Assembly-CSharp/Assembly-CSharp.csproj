@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../UnityEngine.CoreModule/UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../UnityEngine.AssetBundleModule/UnityEngine.AssetBundleModule.csproj" />
+    <ProjectReference Include="../UnityEngine.AudioModule/UnityEngine.AudioModule.csproj" />
+    <ProjectReference Include="../UnityEngine.AnimationModule/UnityEngine.AnimationModule.csproj" />
+    <ProjectReference Include="../UnityEngine.PhysicsModule/UnityEngine.PhysicsModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UnityWebRequestModule/UnityEngine.UnityWebRequestModule.csproj" />
+    <ProjectReference Include="../UnityEngine.ParticleSystemModule/UnityEngine.ParticleSystemModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UnityWebRequestWWWModule/UnityEngine.UnityWebRequestWWWModule.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../UnityEngine.IMGUIModule/UnityEngine.IMGUIModule.csproj" />
+    <ProjectReference Include="../UnityEngine.Physics2DModule/UnityEngine.Physics2DModule.csproj" />
+    <ProjectReference Include="../UnityEngine.TextRenderingModule/UnityEngine.TextRenderingModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UI/UnityEngine.UI.csproj" />
+    <ProjectReference Include="../Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.csproj" />
+    <ProjectReference Include="../UnityEngine.JSONSerializeModule/UnityEngine.JSONSerializeModule.csproj" />
+    <ProjectReference Include="../UnityEngine.ImageConversionModule/UnityEngine.ImageConversionModule.csproj" />
+    <ProjectReference Include="../UnityEngine.ScreenCaptureModule/UnityEngine.ScreenCaptureModule.csproj" />
+  </ItemGroup>
+</Project>

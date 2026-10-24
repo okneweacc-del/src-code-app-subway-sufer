@@ -1,0 +1,23 @@
+using System.Runtime.InteropServices;
+using UnityEngine.Scripting;
+
+namespace UnityEngine;
+
+[StructLayout((LayoutKind)0)]
+[RequiredByNativeCode]
+public class ControllerColliderHit
+{
+	internal CharacterController m_Controller;
+
+	internal Collider m_Collider;
+
+	internal Vector3 m_Point;
+
+	internal Vector3 m_Normal;
+
+	internal Vector3 m_MoveDirection;
+
+	internal float m_MoveLength;
+
+	internal int m_Push;
+}

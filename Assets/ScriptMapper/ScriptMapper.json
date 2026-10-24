@@ -1,0 +1,988 @@
+{
+	"m_HideFlags": 0,
+	"m_PreloadShaders": false,
+	"m_Shaders": {
+		"m_ObjectToName": [
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 17 },
+				"Value": "Hidden/InternalErrorShader"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 62 },
+				"Value": "Hidden/Camera-DepthNormalTexture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 64 },
+				"Value": "Hidden/Internal-PrePassCollectShadows"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 65 },
+				"Value": "Hidden/Internal-CombineDepthNormals"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 66 },
+				"Value": "Hidden/BlitCopy"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 68 },
+				"Value": "Hidden/InternalClear"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 69 },
+				"Value": "Hidden/Internal-Colored"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 70 },
+				"Value": "Hidden/InternalSplashShadowCaster"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 71 },
+				"Value": "Hidden/InternalSplashShadowBlur"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 72 },
+				"Value": "Hidden/InternalSplashShadowReceiver"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 73 },
+				"Value": "Hidden/InternalSplashShadowReceiverSimple"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 102 },
+				"Value": "Hidden/Internal-Flare"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 105 },
+				"Value": "Hidden/Internal-Halo"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9000 },
+				"Value": "Hidden/Internal-GUITextureClip"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9001 },
+				"Value": "Hidden/Internal-GUITextureClipText"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9002 },
+				"Value": "Hidden/Internal-GUITexture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9003 },
+				"Value": "Hidden/Internal-GUITextureBlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10101 },
+				"Value": "GUI/Text Shader"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10753 },
+				"Value": "Sprites/Default"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10755 },
+				"Value": "Hidden/FrameDebuggerRenderTargetDisplay"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Standard (Specular setup)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Standard"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 63 },
+				"Value": "Hidden/Internal-PrePassLighting"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 74 },
+				"Value": "Hidden/Internal-DeferredReflections"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 69 },
+				"Value": "Hidden/Internal-DeferredShading"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 6 },
+				"Value": "Legacy Shaders/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Diffuse Fast"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 7 },
+				"Value": "Legacy Shaders/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Diffuse Detail"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Bumped Unlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Bumped VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Cutout/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Cutout/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Cutout/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Cutout/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Cutout/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Parallax Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Parallax Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/Parallax Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Self-Illumin/Parallax Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Parallax Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Reflective/Parallax Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Parallax Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Parallax Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Transparent/Cutout/Soft Edge Unlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Decal"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "FX/Flare"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Skybox/Cubemap"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Skybox/6 Sided"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Skybox/Procedural"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 3 },
+				"Value": "Particles/Additive"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/~Additive-Multiply"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Additive (Soft)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 198 },
+				"Value": "Particles/Alpha Blended"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Multiply"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Multiply (Double)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Alpha Blended Premultiply"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/VertexLit Blended"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Sprites/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Details/Vertexlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Details/WavingDoublePass"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Details/BillboardWavingDoublePass"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Terrain/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/BillboardTree"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Lightmapped/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Lightmapped/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Lightmapped/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Lightmapped/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Legacy Shaders/Lightmapped/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Soft Occlusion Bark Rendertex"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Tree Soft Occlusion Bark"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Soft Occlusion Leaves Rendertex"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Tree Soft Occlusion Leaves"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Tree Creator Bark"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Tree Creator Leaves"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Bark Rendertex"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Leaves Rendertex"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Bark Optimized"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Leaves Optimized"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Tree Creator Leaves Fast"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Leaves Fast Optimized"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Terrain/Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Splatmap/Specular-AddPass"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Splatmap/Specular-Base"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/Terrain/Standard"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/Splatmap/Standard-Base"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Skybox"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/VertexLit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Bumped Diffuse"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Bumped Specular"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Bumped Specular (1 Directional Light)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/VertexLit (Only Directional Lights)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Unlit (Supports Lightmap)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 4 },
+				"Value": "Mobile/Particles/Additive"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 3 },
+				"Value": "Mobile/Particles/Alpha Blended"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Particles/VertexLit Blended"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Mobile/Particles/Multiply"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 4 },
+				"Value": "Unlit/Transparent"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Unlit/Transparent Cutout"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 5 },
+				"Value": "Unlit/Texture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 5 },
+				"Value": "Unlit/Color"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Unlit/Transparent"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Unlit/Detail"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Unlit/Text"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Unlit/Text Detail"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Lit/Transparent"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Lit/Bumped"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Lit/Detail"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Lit/Refraction"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/Lit/Refraction Detail"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10770 },
+				"Value": "UI/Default"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10782 },
+				"Value": "UI/Default Font"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/SpeedTree"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Nature/SpeedTree Billboard"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/GIDebug/TextureUV"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/GIDebug/UV1sAsPositions"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/GIDebug/VertexColors"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 15104 },
+				"Value": "Hidden/CubeBlur"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 15105 },
+				"Value": "Hidden/CubeCopy"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 15106 },
+				"Value": "Hidden/CubeBlend"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 17 },
+				"Value": "Custom/Distorted/Unlit with overlay"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 7 },
+				"Value": "Custom/Sky"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 8 },
+				"Value": "Custom/Additive Texture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Bend/Flag"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9 },
+				"Value": "Custom/Distorted/Additive"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Colored 2"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Packed 1"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Custom/Distorted/Alpha Blended"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10 },
+				"Value": "Custom/Distorted/Transparent"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Masked 3"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Text 3"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Masked 1"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 12 },
+				"Value": "Custom/Distorted/Additive (fog falloff)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 13 },
+				"Value": "Custom/Particles/AlphaBlendedOverlay"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Text 2"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Custom/Distorted/FlyingCarpet"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 14 },
+				"Value": "Custom/Distorted/Unlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 15 },
+				"Value": "Custom/Distorted/Skyline"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 16 },
+				"Value": "Custom/Distorted/Unlit with overlay and Rim"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 200 },
+				"Value": "Custom/Distorted/MultiplyTeleboardFX"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Premultiplied Colored 3"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Premultiplied Colored 2"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 203 },
+				"Value": "Custom/Distorted/Transparent"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 204 },
+				"Value": "Custom/Additive Constant Color"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Colored (TextureClip)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 18 },
+				"Value": "Unlit/Text"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Premultiplied Colored (TextureClip)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Colored 3"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 19 },
+				"Value": "Custom/Distorted/Unlit with overlay and Rim and SPmask"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 205 },
+				"Value": "Custom/Distorted/Projector Multiply"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Unlit/Transparent Masked"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Premultiplied Colored 1"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 20 },
+				"Value": "Hidden/Unlit/Text 1"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 206 },
+				"Value": "Custom/Distorted/AdditiveNoZ"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 21 },
+				"Value": "Custom/Distorted/Unlit with overlay and Reflection"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Masked 2"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 22 },
+				"Value": "Hidden/Unlit/Transparent Colored 1"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Packed 3"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 23 },
+				"Value": "Custom/Distorted/Multiply"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Unlit/Transparent Colored (Packed) (TextureClip)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 24 },
+				"Value": "Unlit/Transparent Colored"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Unlit/Premultiplied Colored"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Text (TextureClip)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Unlit/Transparent Packed"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Packed 2"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 207 },
+				"Value": "Custom/Distorted/Unlit TeleboardFX"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 25 },
+				"Value": "Custom/Distorted/Additive (falloff)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Bend/Additive, Premultimplied Alpha Darkening"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Bend/Wave (Vertex Color Control)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 202 },
+				"Value": "Custom/Distorted/Alpha Blended (with Reflection)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 199 },
+				"Value": "Custom/Distorted/Unlit with Shift Color"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 64 },
+				"Value": "Hidden/Internal-ScreenSpaceShadows"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 62 },
+				"Value": "Hidden/Internal-DepthNormalsTexture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 75 },
+				"Value": "Hidden/Internal-MotionVectors"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 105 },
+				"Value": "Hidden/Internal-Halo"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 102 },
+				"Value": "Hidden/Internal-Flare"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 19 },
+				"Value": "Hidden/Internal-StencilWrite"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 65 },
+				"Value": "Hidden/Internal-CombineDepthNormals"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 66 },
+				"Value": "Hidden/BlitCopy"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 67 },
+				"Value": "Hidden/BlitCopyDepth"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Anim Alpha Blended"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9000 },
+				"Value": "Hidden/Internal-GUITextureClip"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9001 },
+				"Value": "Hidden/Internal-GUITextureClipText"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9002 },
+				"Value": "Hidden/Internal-GUITexture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9003 },
+				"Value": "Hidden/Internal-GUITextureBlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 6 },
+				"Value": "Sprites/Default"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "UI/DefaultETC1"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "VR/SpatialMapping/Occlusion"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "VR/SpatialMapping/Wireframe"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 11 },
+				"Value": "Hidden/Background Culling"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 16000 },
+				"Value": "Hidden/VideoDecode"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 68 },
+				"Value": "Hidden/ConvertTexture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/GIDebug/ShowLightMask"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VR/BlitTexArraySlice"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VR/Internal-VRDistortion"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VideoDecodeOSX"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 16002 },
+				"Value": "Hidden/VideoDecodeAndroid"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Unlit/Rim Light"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 201 },
+				"Value": "Bend/Wave (UV Distorted)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Custom/Distorted/Unlit with overlay, rim and shine"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Custom/Distorted/Unlit with overlay and shine"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 1 },
+				"Value": "Hidden/Unlit/Transparent Colored (TextureClip) 2"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 17000 },
+				"Value": "Hidden/Compositing"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 107 },
+				"Value": "Hidden/BlitCopyWithDepth"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 109 },
+				"Value": "Hidden/BlitToDepth"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 110 },
+				"Value": "Hidden/BlitToDepth_MSAA"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Standard (Roughness setup)"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Skybox/Panoramic"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Standard Surface"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Particles/Standard Unlit"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/TerrainEngine/CameraFacingBillboardTree"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 9004 },
+				"Value": "Hidden/Internal-GUIRoundedRect"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Albedo Rendertex"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/Nature/Tree Creator Normal Rendertex"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 10757 },
+				"Value": "Sprites/Mask"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/UI/CompositeOverdraw"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/UI/Overdraw"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VR/BlitTexArraySliceToDepth"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VR/BlitTexArraySliceToDepth_MSAA"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 15308 },
+				"Value": "Hidden/Internal-ODSWorldTexture"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 15309 },
+				"Value": "Hidden/Internal-CubemapToEquirect"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VR/ClippingMask"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "Hidden/VR/VideoBackground"
+			},
+			{
+				"Key": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+				"Value": "AR/TangoARRender"
+			}
+		]
+	}
+}

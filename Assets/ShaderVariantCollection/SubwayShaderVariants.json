@@ -1,0 +1,276 @@
+{
+	"m_CorrespondingSourceObject": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 0 },
+	"m_HideFlags": 0,
+	"m_Name": "SubwayShaderVariants",
+	"m_PrefabInternal": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 0 },
+	"m_Shaders": [
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 3 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 4 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 5 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 17 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 7 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					},
+					{
+						"m_Keywords": "SHADOWS_DEPTH",
+						"m_PassType": 8
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 8 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 9 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 10 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 12 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 13 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 14 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 15 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 16 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 18 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 19 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 20 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 21 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 22 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 23 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 24 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 25 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 9000 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 9001 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		},
+		{
+			"Key": { "m_Collection": "globalgamemanagers.assets", "m_PathID": 9003 },
+			"Value": {
+				"m_Variants": [
+					{
+						"m_Keywords": "",
+						"m_PassType": 0
+					}
+				]
+			}
+		}
+	]
+}

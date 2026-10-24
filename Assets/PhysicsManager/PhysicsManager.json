@@ -1,0 +1,72 @@
+{
+	"m_AutoSimulation": true,
+	"m_AutoSyncTransforms": true,
+	"m_BounceThreshold": 2,
+	"m_BroadphaseType": 0,
+	"m_ClothInterCollisionDistance": 0,
+	"m_ClothInterCollisionSettingsToggle": false,
+	"m_ClothInterCollisionStiffness": 0,
+	"m_ContactPairsMode": 0,
+	"m_ContactsGeneration": 1,
+	"m_DefaultContactOffset": 0.01,
+	"m_DefaultMaterial": { "m_Collection": "globalgamemanagers", "m_PathID": 0 },
+	"m_DefaultSolverIterations": 6,
+	"m_DefaultSolverVelocityIterations": 1,
+	"m_EnableAdaptiveForce": false,
+	"m_Gravity": {
+		"m_X": 0,
+		"m_Y": -9.81,
+		"m_Z": 0
+	},
+	"m_HideFlags": 0,
+	"m_LayerCollisionMatrix": [
+		8390856,
+		8388808,
+		8388808,
+		4294967295,
+		8388808,
+		8388808,
+		4294967295,
+		4294967295,
+		8388808,
+		8390856,
+		8390856,
+		14624457,
+		8388808,
+		12585160,
+		8388808,
+		8388808,
+		8390856,
+		8390856,
+		8915144,
+		8653000,
+		8390856,
+		8388808,
+		8399048,
+		4294967295,
+		8388808,
+		8388808,
+		8388808,
+		8388808,
+		8388808,
+		8388808,
+		8388808,
+		8388808
+	],
+	"m_QueriesHitBackfaces": false,
+	"m_QueriesHitTriggers": true,
+	"m_SleepThreshold": 0.005,
+	"m_WorldBounds": {
+		"m_Center": {
+			"m_X": 0,
+			"m_Y": 0,
+			"m_Z": 0
+		},
+		"m_Extent": {
+			"m_X": 250,
+			"m_Y": 250,
+			"m_Z": 250
+		}
+	},
+	"m_WorldSubdivisions": 8
+}

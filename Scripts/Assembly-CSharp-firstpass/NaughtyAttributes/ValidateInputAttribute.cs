@@ -1,0 +1,21 @@
+using System;
+
+namespace NaughtyAttributes;
+
+[AttributeUsage(AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
+public class ValidateInputAttribute : ValidatorAttribute
+{
+	private string callbackName;
+
+	private string message;
+
+	public string CallbackName => callbackName;
+
+	public string Message => message;
+
+	public ValidateInputAttribute(string callbackName, string message = null)
+	{
+		this.callbackName = callbackName;
+		this.message = message;
+	}
+}
